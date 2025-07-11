@@ -27,6 +27,5 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material
       - name: Set remote repo for gh-deploy
-        run: |
-          git remote set-url origin https://github.com/ambernegi/Documentation.git
+   
       - run: mkdocs gh-deploy --force
