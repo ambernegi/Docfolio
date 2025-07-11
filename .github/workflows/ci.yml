@@ -26,5 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
-     
-     
+      - name: Deploy to GitHub Pages (pages branch)
+        run: mkdocs gh-deploy --force --remote-branch pages
