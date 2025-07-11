@@ -26,6 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
-      - name: Set remote repo for gh-deploy
-   
-      - run: mkdocs gh-deploy --force
+     
+     
